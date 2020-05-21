@@ -2,9 +2,6 @@ import ProductService from '../services/product.service';
 import SortService from '../services/sort.service';
 
 export class ProductController {
-  constructor() {
-    this.recommended = 'recommended';
-  }
   all(req, res) {
     ProductService.all().then(r => res.json(r.data));
   }
@@ -16,7 +13,7 @@ export class ProductController {
       const customers = response.data;
       ProductService.all().then(async r => {
         let products =
-          req.query.sortOption === this.recommended
+          (req.query.sortOption === 'recommended')
             ? await SortService.getPopularProducts(customers, r.data)
             : r.data;
         products.sort(SortService.dynamicSort(req.query.sortOption));
