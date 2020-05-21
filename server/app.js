@@ -18,4 +18,4 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 global.__basedir = __dirname;
 app.use('/', indexRouter);
-module.exports = app
+module.exports = app;

@@ -10,4 +10,4 @@ export default express
   .get('/user', UserController.user)
   .get('/products', ProductController.all)
   .get('/shopping', ProductController.shopping_history)
-  .get('/sort', ProductController.sort)
+  .get('/sort', ProductController.sort);

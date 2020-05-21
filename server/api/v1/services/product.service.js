@@ -6,8 +6,10 @@ export class ProductService {
   get_customer_data() {
     return api.customer_products();
   }
-  delete_unwanted_fields(products){
-    products.forEach(function(v){ delete v.recommended });
+  delete_unwanted_fields(products) {
+    products.forEach(function(v) {
+      delete v.recommended;
+    });
     return products;
   }
 }

@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1d0834-1c94-45dc-87a8-1e0fe33b80d8" name="Default" comment="" />
+    <list default="true" id="be1d0834-1c94-45dc-87a8-1e0fe33b80d8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/controllers/IndexController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/controllers/IndexController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/controllers/ProductController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/controllers/ProductController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/services/api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/services/api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/services/file.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/services/file.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/services/product.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/services/product.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/services/sort.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/services/sort.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/v1/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/v1/services/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/routes.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/routes.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/sort.service.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/sort.service.spec.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c9IT6Ec5eHvwH859XuZRYTBe5l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/api/v1/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -25,8 +44,8 @@
       <recent name="$PROJECT_DIR$/server/api/v1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/api/v1/services" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server/api/v1/services" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/server/api/v1" />
     </key>
