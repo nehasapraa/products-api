@@ -18,7 +18,7 @@ export class SortService {
         option = '-name';
         break;
       }
-      case 'Recommended': {
+      case 'recommended': {
         option = '-recommended';
         break;
       }
