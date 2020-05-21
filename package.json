@@ -76,7 +76,7 @@
     ]
   },
   "jest": {
-    "testURL":"http://dev-wooliesx-recruitment.azurewebsites.net"
+    "testURL": "http://dev-wooliesx-recruitment.azurewebsites.net"
   },
   "_moduleAliases": {
     "@app": "./server",
