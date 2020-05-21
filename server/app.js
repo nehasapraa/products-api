@@ -17,5 +17,5 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(bodyParser.json());
 global.__basedir = __dirname;
-app.use('/', indexRouter);
+app.use('', indexRouter);
 module.exports = app;
