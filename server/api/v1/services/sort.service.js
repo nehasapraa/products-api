@@ -14,11 +14,11 @@ export class SortService {
         option = 'name';
         break;
       }
-      case 'decending': {
+      case 'descending': {
         option = '-name';
         break;
       }
-      case 'recommended': {
+      case 'Recommended': {
         option = '-recommended';
         break;
       }

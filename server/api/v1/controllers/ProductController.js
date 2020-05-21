@@ -13,7 +13,7 @@ export class ProductController {
       const customers = response.data;
       ProductService.all().then(async r => {
         let products =
-          (req.query.sortOption === 'recommended')
+          (req.query.sortOption.toLowerCase() === 'recommended')
             ? await SortService.getPopularProducts(customers, r.data)
             : r.data;
         products.sort(SortService.dynamicSort(req.query.sortOption));
