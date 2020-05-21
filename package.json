@@ -38,9 +38,7 @@
     "qs": "^6.9.4",
     "query-string": "^6.11.1",
     "rimraf": "^3.0.2",
-    "uuid": "^7.0.3"
-  },
-  "devDependencies": {
+    "uuid": "^7.0.3",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/node": "^7.8.4",
@@ -62,6 +60,9 @@
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
     "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+
   },
   "nodemonConfig": {
     "exec": "npm run dev",
