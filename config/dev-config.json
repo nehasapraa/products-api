@@ -1,0 +1,14 @@
+{
+  "apps" : [{
+    "name"        : "products-api",
+    "script"      : "./server/bin/www.js",
+    "exec_mode"   : "fork",
+    "exec_interpreter": "babel-node",
+    "instances" : 1,
+    "merge_logs" :true,
+    "env": {
+      "PORT": 5000,
+      "MONITORING": false
+    }
+  }]
+}
