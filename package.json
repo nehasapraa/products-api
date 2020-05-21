@@ -4,11 +4,12 @@
   "description": "Products api exercise",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "npm run prod",
     "test": "jest --coverage",
     "build": "npm-run-all clean transpile",
     "server": "node ./build/bin/www",
     "dev": "pm2-dev start config/dev-config.json",
+    "prod": "pm2-runtime start ecosystem.config.js --env production",
     "transpile": "babel ./server --out-dir build",
     "clean": "rimraf build",
     "watch:dev": "nodemon",
@@ -61,9 +62,7 @@
     "prettier": "^1.19.1",
     "supertest": "^4.0.2"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "nodemonConfig": {
     "exec": "npm run dev",
     "watch": [
