@@ -4,7 +4,7 @@ export class UserController {
     UserService.get_user()
       .then(r => res.send(r))
       .catch(e => {
-        res.send(`Status ${e.response.status} ${e.response.data}`);
+        res.send(`Error ${e.message}`);
       });
   }
 }
